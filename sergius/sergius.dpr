@@ -38,7 +38,7 @@ end;
 
 function f3(x,y,a,d:Extended;var r,g,b:Extended):ShortString;
 begin
-  result:='By Sergius бабочка-1';
+  result:='By Sergius Р±Р°Р±РѕС‡РєР°-1';
   r:=symZero; g:=cutFrac;
   if(d<0)then exit;
   r:=arctan(x*pi*exp(x)/ln(pi*x*y))*cos(y*ln(x)*10/cos(x/sin(y)));
@@ -48,7 +48,7 @@ end;
 
 function f4(x,y,a,d:Extended;var r,g,b:Extended):ShortString;
 begin
-  result:='By Sergius бабочка-2';
+  result:='By Sergius Р±Р°Р±РѕС‡РєР°-2';
   r:=symZero; g:=cutFrac;
   if(d<0)then exit;
   r:=arctan(x*pi*exp(x)/ln(pi*x*y))*cos(y*ln(x/10*y/arctan(x*y))*10/cos(x/sin(y)));

@@ -9,7 +9,7 @@ const
 
 function Painter(var Name:ShortString):Variant;
 begin
-  Name:='Васильев Сергей (2:5090/55.26)';
+  Name:='Р’Р°СЃРёР»СЊРµРІ РЎРµСЂРіРµР№ (2:5090/55.26)';
   Result:=VarArrayOf(['f1','f2','f3','f4','f5','f6','f7','f8','f9','f10','f11','f12','f13','f14','f15','f16','f17']);
 end;
 function pow(x,p:extended):extended;
@@ -18,7 +18,7 @@ function pow(x,p:extended):extended;
 
 function f1(x,y,a,d:Extended;var r,g,b:Extended):ShortString;
 begin
-  result:='Красно-синие обхватывающие друг друга полосы с элементами эротики';
+  result:='РљСЂР°СЃРЅРѕ-СЃРёРЅРёРµ РѕР±С…РІР°С‚С‹РІР°СЋС‰РёРµ РґСЂСѓРі РґСЂСѓРіР° РїРѕР»РѕСЃС‹ СЃ СЌР»РµРјРµРЅС‚Р°РјРё СЌСЂРѕС‚РёРєРё';
   r:=symZero; g:=cutNear;
   if(d<0)then exit;
   if(abs(x- sqr(ln(abs(cos(d*pi*1.1))+M)) )<D)then
@@ -32,7 +32,7 @@ end;
 
 function f2(x,y,a,d:Extended;var r,g,b:Extended):ShortString;
 begin
-  result:='Муть. Просто, к тому же бесплатно :-)';
+  result:='РњСѓС‚СЊ. РџСЂРѕСЃС‚Рѕ, Рє С‚РѕРјСѓ Р¶Рµ Р±РµСЃРїР»Р°С‚РЅРѕ :-)';
   r:=symZero; g:=cutNear;
   if(d<0)then exit;
   r:=random*abs(sin(d*4*pi+0*pi/3));
@@ -42,7 +42,7 @@ end;
 
 function f3(x,y,a,d:Extended;var r,g,b:Extended):ShortString;
 begin
-  result:='Блики в центре и красно-синие окресности. Похоже на рождающуюся Вселенную';
+  result:='Р‘Р»РёРєРё РІ С†РµРЅС‚СЂРµ Рё РєСЂР°СЃРЅРѕ-СЃРёРЅРёРµ РѕРєСЂРµСЃРЅРѕСЃС‚Рё. РџРѕС…РѕР¶Рµ РЅР° СЂРѕР¶РґР°СЋС‰СѓСЋСЃСЏ Р’СЃРµР»РµРЅРЅСѓСЋ';
   r:=symZero; g:=cutNear;
   if(d<0)then exit;
   r:=pow(x/3,d);
@@ -52,7 +52,7 @@ end;
 
 function f4(x,y,a,d:Extended;var r,g,b:Extended):ShortString;
 begin
-  result:='Синусоидоподобные линии. Ерунда многоцветная';
+  result:='РЎРёРЅСѓСЃРѕРёРґРѕРїРѕРґРѕР±РЅС‹Рµ Р»РёРЅРёРё. Р•СЂСѓРЅРґР° РјРЅРѕРіРѕС†РІРµС‚РЅР°СЏ';
   r:=symZero; g:=cutNear;
   if(d<0)then exit;
   g:=1-abs(x - sin(y*pi)/2);
@@ -61,9 +61,9 @@ begin
 end;
 
 function f5(x,y,a,d:Extended;var r,g,b:Extended):ShortString;
-const K=0.005;                    {Размер звезды пропорционален K}
+const K=0.005;                    {Р Р°Р·РјРµСЂ Р·РІРµР·РґС‹ РїСЂРѕРїРѕСЂС†РёРѕРЅР°Р»РµРЅ K}
 begin
-  result:='Синяя четырехугольная звезда на красно-зеленых сочетаниях';
+  result:='РЎРёРЅСЏСЏ С‡РµС‚С‹СЂРµС…СѓРіРѕР»СЊРЅР°СЏ Р·РІРµР·РґР° РЅР° РєСЂР°СЃРЅРѕ-Р·РµР»РµРЅС‹С… СЃРѕС‡РµС‚Р°РЅРёСЏС…';
   r:=symZero; g:=cutNear;
   if(d<0)then exit;
   r:=x*d;
@@ -73,7 +73,7 @@ end;
 
 function f6(x,y,a,d:Extended;var r,g,b:Extended):ShortString;
 begin
-  result:='Четырехлепестковый синий цветок';
+  result:='Р§РµС‚С‹СЂРµС…Р»РµРїРµСЃС‚РєРѕРІС‹Р№ СЃРёРЅРёР№ С†РІРµС‚РѕРє';
   r:=symZero; g:=cutNear;
   if(d<0)then exit;
   r:=x*d/y;
@@ -83,7 +83,7 @@ end;
 
 function f7(x,y,a,d:Extended;var r,g,b:Extended):ShortString;
 begin
-  result:='Так себе';
+  result:='РўР°Рє СЃРµР±Рµ';
   r:=symZero; g:=cutNear;
   if(d<0)then exit;
   r:=pow(x*2*d,y/d);
@@ -93,7 +93,7 @@ end;
 
 function f8(x,y,a,d:Extended;var r,g,b:Extended):ShortString;
 begin
-  result:='Windows 99. Ромбовидное окно';
+  result:='Windows 99. Р РѕРјР±РѕРІРёРґРЅРѕРµ РѕРєРЅРѕ';
   r:=symZero; g:=cutNear;
   if(d<0)then exit;
   r:=sin(x*y*pi*2)/d;
@@ -103,7 +103,7 @@ end;
 
 function f9(x,y,a,d:Extended;var r,g,b:Extended):ShortString;
 begin
-  result:='Желтые блики';
+  result:='Р–РµР»С‚С‹Рµ Р±Р»РёРєРё';
   r:=symZero; g:=cutNear;
   if(d<0)then exit;
   r:=pow(d/x*y,x*y);
@@ -113,7 +113,7 @@ end;
 
 function f10(x,y,a,d:Extended;var r,g,b:Extended):ShortString;
 begin
-  result:='Волшебный цветочек. Может аленький';
+  result:='Р’РѕР»С€РµР±РЅС‹Р№ С†РІРµС‚РѕС‡РµРє. РњРѕР¶РµС‚ Р°Р»РµРЅСЊРєРёР№';
   r:=symZero; g:=cutNear;
   if(d<0)then exit;
   r:=pow(d/x*y,ln(x*y)/exp(x)/exp(y));
@@ -123,7 +123,7 @@ end;
 
 function f11(x,y,a,d:Extended;var r,g,b:Extended):ShortString;
 begin
-  result:='Цветовые кресты';
+  result:='Р¦РІРµС‚РѕРІС‹Рµ РєСЂРµСЃС‚С‹';
   r:=symZero; g:=cutNear;
   if(d<0)then exit;
   g:=y*x/d;
@@ -133,7 +133,7 @@ end;
 
 function f12(x,y,a,d:Extended;var r,g,b:Extended):ShortString;
 begin
-  result:='Многоцветик';
+  result:='РњРЅРѕРіРѕС†РІРµС‚РёРє';
   r:=symZero; g:=cutNear;
   if(d<0)then exit;
   g:=sqr(1-d)/y*x;
@@ -143,7 +143,7 @@ end;
 
 function f13(x,y,a,d:Extended;var r,g,b:Extended):ShortString;
 begin
-  result:='Синий глаз';
+  result:='РЎРёРЅРёР№ РіР»Р°Р·';
   r:=symZero; g:=cutNear;
   if(d<0)then exit;
   if(abs(y - 0.5/(x*2))<D)then
@@ -155,7 +155,7 @@ end;
 
 function f14(x,y,a,d:Extended;var r,g,b:Extended):ShortString;
 begin
-  result:='Точковатость';
+  result:='РўРѕС‡РєРѕРІР°С‚РѕСЃС‚СЊ';
   r:=symZero; g:=cutNear;
   if(d<0)then exit;
   r:=d*abs(y - 0.5/(x/2));
@@ -165,7 +165,7 @@ end;
 
 function f15(x,y,a,d:Extended;var r,g,b:Extended):ShortString;
 begin
-  result:='Мишень';
+  result:='РњРёС€РµРЅСЊ';
   r:=symZero; g:=cutNear;
   if(d<0)then exit;
   r:=cos(pi*sin(pi*x*y));
@@ -175,7 +175,7 @@ end;
 
 function f16(x,y,a,d:Extended;var r,g,b:Extended):ShortString;
 begin
-  result:='Распятие';
+  result:='Р Р°СЃРїСЏС‚РёРµ';
   r:=symZero; g:=cutNear;
   if(d<0)then exit;
   r:=x*y/d;
@@ -186,7 +186,7 @@ end;
 function f17(x,y,a,d:Extended;var r,g,b:Extended):ShortString;
 var i:Integer;
 begin
-  result:='Лохматые X-Wings';
+  result:='Р›РѕС…РјР°С‚С‹Рµ X-Wings';
   r:=symZero; g:=cutFrac;
   if(d<0)then exit;
   r:=1;

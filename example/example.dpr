@@ -9,7 +9,7 @@ const
 
 function Painter(var Name:ShortString):Variant;
 begin
-  Name:='Пример модуля';
+  Name:='РџСЂРёРјРµСЂ РјРѕРґСѓР»СЏ';
   Result:=VarArrayOf(['f1','f2']);
 end;
 function pow(x,p:extended):extended;
@@ -18,7 +18,7 @@ function pow(x,p:extended):extended;
 
 function f1(x,y,a,d:Extended;var r,g,b:Extended):ShortString;
 begin
-  result:='Красно-синие обхватывающие друг друга полосы с элементами эротики';
+  result:='РљСЂР°СЃРЅРѕ-СЃРёРЅРёРµ РѕР±С…РІР°С‚С‹РІР°СЋС‰РёРµ РґСЂСѓРі РґСЂСѓРіР° РїРѕР»РѕСЃС‹ СЃ СЌР»РµРјРµРЅС‚Р°РјРё СЌСЂРѕС‚РёРєРё';
   r:=symZero; g:=cutNear;
   if(d<0)then exit;
   if(abs(x- sqr(ln(abs(cos(d*pi*1.1))+M)) )<D)then
@@ -32,7 +32,7 @@ end;
 
 function f2(x,y,a,d:Extended;var r,g,b:Extended):ShortString;
 begin
-  result:='Муть. Просто, к тому же бесплатно :-)';
+  result:='РњСѓС‚СЊ. РџСЂРѕСЃС‚Рѕ, Рє С‚РѕРјСѓ Р¶Рµ Р±РµСЃРїР»Р°С‚РЅРѕ :-)';
   r:=symZero; g:=cutNear;
   if(d<0)then exit;
   r:=random*abs(sin(d*4*pi+0*pi/3));
